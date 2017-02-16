@@ -70,3 +70,14 @@ The last syntax might be useful when generating a series of combination like `é¦
 ``a->b`` is the type that associates `a` with `b` identically.
 
 In the context of Haskell, function is just another a ``type``.
+
+## argebra
+We can define original data type using `data` keyword.
+
+```Haskell
+data Signal = Green | Yellow | Red
+cango :: Signal -> Bool
+cango Green = True
+cango Yellow = False
+cango Red = False
+```

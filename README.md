@@ -13,3 +13,6 @@ To be able to define funciton named calcArea which calculates area of circle usi
 
 ### Fub 15th
 To be able to define function which returns Fibonacci number. Use recursion.
+
+### Feb 16th
+To be able to define `record`. Like object in OOP.
